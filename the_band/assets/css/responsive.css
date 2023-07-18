@@ -1,0 +1,46 @@
+/* MOBILE */
+@media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+    }
+    
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    } 
+
+    #nav .subnav a {
+        color: white;
+        padding: 1px 24px;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #header .mobile-menu-btn {
+        display: inline;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+}
+
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    
+}
